@@ -10,7 +10,7 @@ function App() {
         </div>
         <div className="login-section">
           <div className="logoimage d-flex justify-content-center">
-            <img src="./Dev_Challenge/amazon.png"></img>
+            <img src="./Dev_Challenge/amazon.png" alt="amazon-image"></img>
           </div>
           <h6 className="text-center login">Login</h6>
           <div className="d-flex justify-content-center">
@@ -20,6 +20,7 @@ function App() {
                   src="./Dev_Challenge/tree.png"
                   width="100%"
                   className="mt-8"
+                  alt="tree-image"
                 ></img>
               </div>
               <div>
@@ -31,7 +32,7 @@ function App() {
                 <p className="or-content">or</p>
                 <div className="d-flex flex-wrap justify-content-between align-items-center google">
                   <div className="col-2">
-                    <img src="./Dev_Challenge/google.png" />
+                    <img src="./Dev_Challenge/google.png" alt="google-image"/>
                   </div>
                   <div className="col-10">
                     <p className="text-center mb-0">CONTINUE WITH GOOGLE</p>
@@ -39,7 +40,7 @@ function App() {
                 </div>
                 <div className="d-flex flex-wrap justify-content-between align-items-center google mt-16 mb-46">
                   <div className="col-2">
-                    <img src="./Dev_Challenge/facebook.png" />
+                    <img src="./Dev_Challenge/facebook.png" alt="facebook-image"/>
                   </div>
                   <div className="col-10">
                     <p className="text-center mb-0">CONTINUE WITH FACEBOOK</p>
